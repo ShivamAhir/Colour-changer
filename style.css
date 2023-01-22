@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#button{
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: yellow 5px;
+}
+#change{
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 200px;
+    
+}
+#one,#two,#three,#four,#five,#six{
+    width: 300px;
+    height: 40vh;
+
+}
+
+#one,#two,#three{
+    display: inline-block;
+    
+}
+#four,#five,#six{
+    display: inline-block;
+} 
+#one{
+    background-color: rgb(255,0,0);
+}
+#two{
+    background-color: rgb(0,255,0);
+}
+#three{
+    background-color: rgb(0,0,255);
+}
+#four{
+    background-color:rgb(0,15,150);
+}
+#five{
+    background-color: rgb(100,100,100);
+}
+#six{
+    background-color: rgb(55,80,110);
+}
